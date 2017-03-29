@@ -20,7 +20,7 @@ public class SystemMonitorProcessor extends AbstractCmdProcessor {
 
 
     private Sigar sigar;
-    private ExecutorService      exec       = Executors.newCachedThreadPool();
+    private ExecutorService exec = Executors.newCachedThreadPool();
     private Map<String, Publish> cpuPublish = new ConcurrentHashMap<>();
     private Map<String, Publish> memPublish = new ConcurrentHashMap<>();
 
@@ -138,7 +138,7 @@ public class SystemMonitorProcessor extends AbstractCmdProcessor {
     }
 
     public Future startPublishCpu() throws Exception {
-        return exec.submit((Callable) () -> {
+        return exec.submit(() -> {
             for (; ; ) {
                 try {
                     if (cpuPublish.isEmpty()) {
@@ -178,7 +178,7 @@ public class SystemMonitorProcessor extends AbstractCmdProcessor {
     }
 
     public Future startPublishMem() throws Exception {
-        return exec.submit((Callable) () -> {
+        return exec.submit(() -> {
             for (; ; ) {
                 try {
                     if (memPublish.isEmpty()) {
