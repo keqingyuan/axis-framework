@@ -1,6 +1,5 @@
 ## 后台管理基础框架
 
-[![Build Status](https://travis-ci.org/hs-web/hsweb-framework.svg?branch=master)](https://travis-ci.org/hs-web/hsweb-framework)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ### 业务功能
@@ -38,11 +37,6 @@
 8. websocket支持.
 9. 定时调度支持,可在页面配置定时任务,编写任务脚本执行。
 
-### 演示
-1. 示例:[demo.hsweb.me](http://demo.hsweb.me)
-2. 测试用户:test (test2,test3,test4....) 密码:123456 
-3. 演示项目源码:[hsweb-platform](https://github.com/hs-web/hsweb-platform)
-
 ### 文档
 1. [安装使用](doc/1.安装使用.md)
 2. [API](doc/2.API.md)
@@ -63,7 +57,7 @@
 4. Cache:[spring-cache](https://github.com/spring-projects/spring-framework/tree/master/spring-context/src/main/java/org/springframework/cache). 统一接口,注解使用,simple,redis... 自动切换.
 5. Scheduler:[quartz](https://github.com/quartz-scheduler/quartz). 开源稳定,支持集群.
 
-自家:
+hsweb:
 
 0. [hsweb-commons](https://github.com/hs-web/hsweb-commons) :通用工具类
 1. [hsweb-easy-orm](https://github.com/hs-web/hsweb-easy-orm) :为动态表单设计的orm框架
