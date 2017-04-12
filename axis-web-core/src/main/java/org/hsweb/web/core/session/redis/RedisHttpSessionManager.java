@@ -68,9 +68,10 @@ public class RedisHttpSessionManager extends AbstractHttpSessionManager {
         if (sessionId == null) return;
         ExpiringSession redisSession = redisOperationsSessionRepository.getSession(sessionId);
         HttpSession session = new HttpSessionWrapper(redisSession);
-        onUserLoginOut(userId, session);
-        removeSession(sessionId);
         sessionRedisTemplate.delete(key);
+        removeSession(sessionId);
+        onUserLoginOut(userId, session);
+
     }
 
     @Override
@@ -88,13 +89,14 @@ public class RedisHttpSessionManager extends AbstractHttpSessionManager {
         String sessionId = getSessionIdByUserId(user.getId());
         if (sessionId != null) removeSession(sessionId);
 
-        session.setAttribute("user", user);
-        onUserLogin(user, session);
         //不知道为啥 有时候会添加失败???
         sessionRedisTemplate.opsForValue().set(key, value);
         sessionId = (String) sessionRedisTemplate.opsForValue().get(key);
         if (sessionId == null)
             logger.error("添加用户信息到redis失败,用户可能无法退出登录:user[{}:{}],sessionId[{}]", user.getId(), user.getUsername(), session.getId());
+
+        session.setAttribute("user", user);
+        onUserLogin(user, session);
 
     }
 
