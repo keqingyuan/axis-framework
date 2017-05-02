@@ -17,8 +17,8 @@
             <artifactId>hibernate-validator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.hsweb</groupId>
-            <artifactId>hsweb-easy-orm-rdb</artifactId>
+            <groupId>org.axis</groupId>
+            <artifactId>axis-easy-orm-rdb</artifactId>
         </dependency>
         <dependency>
             <groupId>org.axis</groupId>

@@ -13,6 +13,13 @@
     <dependencies>
 
         <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc14</artifactId>
+            <type>pom</type>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
             <scope>test</scope>
@@ -55,12 +62,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc14</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>test</scope>
@@ -78,8 +79,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.hsweb</groupId>
-            <artifactId>hsweb-expands-office</artifactId>
+            <groupId>org.axis</groupId>
+            <artifactId>axis-expands-office</artifactId>
         </dependency>
 
         <dependency>
@@ -89,8 +90,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.hsweb</groupId>
-            <artifactId>hsweb-easy-orm-rdb</artifactId>
+            <groupId>org.axis</groupId>
+            <artifactId>axis-easy-orm-rdb</artifactId>
         </dependency>
 
         <dependency>
