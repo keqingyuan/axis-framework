@@ -34,11 +34,11 @@ import java.sql.SQLException;
 
 public class DynamicXaDataSourceImpl extends AbstractDataSource implements DynamicDataSource, XADataSource, Closeable {
     private Logger               logger            = LoggerFactory.getLogger(DynamicDataSource.class);
-    private javax.sql.DataSource defaultDataSource = null;
+    private DataSource defaultDataSource = null;
     private   DatabaseType             defaultDatabaseType;
     protected DynamicDataSourceService dynamicDataSourceService;
 
-    public DynamicXaDataSourceImpl(javax.sql.DataSource defaultDataSource, DatabaseType defaultDatabaseType) {
+    public DynamicXaDataSourceImpl(DataSource defaultDataSource, DatabaseType defaultDatabaseType) {
         Assert.notNull(defaultDataSource);
         Assert.notNull(defaultDatabaseType);
         this.defaultDataSource = defaultDataSource;

@@ -34,7 +34,7 @@ import java.util.Properties;
  * @see com.atomikos.jdbc.AbstractDataSourceBean
  * @since 2.1
  */
-@ConfigurationProperties(prefix = "hsweb.dynamicDatasource")
+@ConfigurationProperties(prefix = "axis.dynamicDatasource")
 public class DynamicDataSourceProperties
         implements BeanClassLoaderAware, InitializingBean {
     private String                name                    = "core";

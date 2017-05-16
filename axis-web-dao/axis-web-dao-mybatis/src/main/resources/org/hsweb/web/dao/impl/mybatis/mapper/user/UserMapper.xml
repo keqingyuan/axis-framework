@@ -12,10 +12,9 @@
         <result property="email" column="email" javaType="String" jdbcType="VARCHAR"/>
         <result property="phone" column="phone" javaType="String" jdbcType="VARCHAR"/>
         <result property="status" column="status" javaType="int" jdbcType="INTEGER"/>
-        <result property="type" column="type" javaType="int" jdbcType="INTEGER"/>
         <result property="createDate" column="create_date" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
         <result property="updateDate" column="update_date" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
-        <collection property="userRoles" column="u_id" ofType="UserRole"
+        <collection property="userRoles" column="u_id" ofType="org.hsweb.web.bean.po.role.UserRole"
                     select="org.hsweb.web.dao.role.UserRoleMapper.selectByUserId"/>
     </resultMap>
     <!--用于动态生成sql所需的配置-->
@@ -24,7 +23,7 @@
         <bind name="tableName" value="'s_user'"/>
     </sql>
 
-    <insert id="insert" parameterType="org.hsweb.web.bean.common.InsertParam">
+    <insert id="insert" parameterType="org.hsweb.web.bean.common.InsertParam" >
         <include refid="config"/>
         <include refid="BasicMapper.buildInsertSql"/>
     </insert>
@@ -45,10 +44,6 @@
 
     <select id="selectByUserName" parameterType="string" resultMap="UserResultMap">
         select * from s_user where username=#{username}
-    </select>
-
-    <select id="selectNameByPk" parameterType="string" resultType="java.lang.String">
-        select name from s_user where u_id=#{id}
     </select>
 
     <select id="selectByPk" parameterType="string" resultMap="UserResultMap">

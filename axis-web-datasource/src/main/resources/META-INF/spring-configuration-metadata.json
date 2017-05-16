@@ -1,144 +1,144 @@
 {
   "groups": [
     {
-      "name": "hsweb.dynamic-datasource",
+      "name": "axis.dynamic-datasource",
       "type": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     }
   ],
   "properties": [
     {
-      "name": "hsweb.dynamic-datasource.name",
+      "name": "axis.dynamic-datasource.name",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.type",
+      "name": "axis.dynamic-datasource.type",
       "type": "org.hsweb.web.core.datasource.DatabaseType",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.datasource-name",
+      "name": "axis.dynamic-datasource.datasource-name",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.username",
+      "name": "axis.dynamic-datasource.username",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.password",
+      "name": "axis.dynamic-datasource.password",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.url",
+      "name": "axis.dynamic-datasource.url",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.testQuery",
+      "name": "axis.dynamic-datasource.testQuery",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.login-timeout",
+      "name": "axis.dynamic-datasource.login-timeout",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.max-life-time",
+      "name": "axis.dynamic-datasource.max-life-time",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.min-pool-size",
+      "name": "axis.dynamic-datasource.min-pool-size",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.max-pool-size",
+      "name": "axis.dynamic-datasource.max-pool-size",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.borrow-connection-timeout",
+      "name": "axis.dynamic-datasource.borrow-connection-timeout",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.reap-timeout",
+      "name": "axis.dynamic-datasource.reap-timeout",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.max-idle-time",
+      "name": "axis.dynamic-datasource.max-idle-time",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.maintenance-interval",
+      "name": "axis.dynamic-datasource.maintenance-interval",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.default-isolation-level",
+      "name": "axis.dynamic-datasource.default-isolation-level",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.transaction-timeout",
+      "name": "axis.dynamic-datasource.transaction-timeout",
       "type": "java.lang.Integer",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.properties",
+      "name": "axis.dynamic-datasource.properties",
       "type": "java.util.Properties",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch",
+      "name": "axis.dynamic-datasource.icatch",
       "type": "org.springframework.boot.jta.atomikos.AtomikosProperties",
       "sourceType": "org.hsweb.web.datasource.dynamic.DynamicDataSourceProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.service",
+      "name": "axis.dynamic-datasource.icatch.service",
       "type": "String",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.max-timeout",
+      "name": "axis.dynamic-datasource.icatch.max-timeout",
       "type": "long",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.default-jta-timeout",
+      "name": "axis.dynamic-datasource.icatch.default-jta-timeout",
       "type": "long",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.max-actives",
+      "name": "axis.dynamic-datasource.icatch.max-actives",
       "type": "int",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.enable-logging",
+      "name": "axis.dynamic-datasource.icatch.enable-logging",
       "type": "boolean",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.transaction-manager-unique-name",
+      "name": "axis.dynamic-datasource.icatch.transaction-manager-unique-name",
       "type": "String",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.serial-jta-transactions",
+      "name": "axis.dynamic-datasource.icatch.serial-jta-transactions",
       "type": "boolean",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.force-shutdown-on-vm-exit",
+      "name": "axis.dynamic-datasource.icatch.force-shutdown-on-vm-exit",
       "type": "boolean",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
@@ -148,49 +148,49 @@
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.log-base-dir",
+      "name": "axis.dynamic-datasource.icatch.log-base-dir",
       "type": "String",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.checkpoint-interval",
+      "name": "axis.dynamic-datasource.icatch.checkpoint-interval",
       "type": "long",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.console-log-level",
+      "name": "axis.dynamic-datasource.icatch.console-log-level",
       "type": "org.springframework.boot.jta.atomikos.AtomikosLoggingLevel",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.output-dir",
+      "name": "axis.dynamic-datasource.icatch.output-dir",
       "type": "String",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.console-file-name",
+      "name": "axis.dynamic-datasource.icatch.console-file-name",
       "type": "String",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.console-file-count",
+      "name": "axis.dynamic-datasource.icatch.console-file-count",
       "type": "int",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.console-file-limit",
+      "name": "axis.dynamic-datasource.icatch.console-file-limit",
       "type": "int",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.threaded-2pc",
+      "name": "axis.dynamic-datasource.icatch.threaded-2pc",
       "type": "boolean",
       "sourceType": "org.springframework.boot.jta.atomikos.AtomikosProperties"
     }
   ],
   "hints": [
     {
-      "name": "hsweb.dynamic-datasource.type",
+      "name": "axis.dynamic-datasource.type",
       "values": [
         {
           "value": "h2",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "name": "hsweb.dynamic-datasource.icatch.console-log-level",
+      "name": "axis.dynamic-datasource.icatch.console-log-level",
       "values": [
         {
           "value": "INFO",

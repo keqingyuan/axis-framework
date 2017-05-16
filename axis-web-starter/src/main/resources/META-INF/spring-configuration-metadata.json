@@ -1,32 +1,32 @@
 {
   "groups": [
     {
-      "name": "hsweb.app",
+      "name": "axis.app",
       "type": "org.hsweb.web.starter.AppProperties",
       "sourceType": "org.hsweb.web.starter.AppProperties"
     }
   ],
   "properties": [
     {
-      "name": "hsweb.app.name",
+      "name": "axis.app.name",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.starter.AppProperties",
       "defaultValue": "default"
     },
     {
-      "name": "hsweb.app.comment",
+      "name": "axis.app.comment",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.starter.AppProperties",
       "defaultValue": ""
     },
     {
-      "name": "hsweb.app.website",
+      "name": "axis.app.website",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.starter.AppProperties",
       "defaultValue": ""
     },
     {
-      "name": "hsweb.app.version",
+      "name": "axis.app.version",
       "type": "java.lang.String",
       "sourceType": "org.hsweb.web.starter.AppProperties",
       "defaultValue": "default"

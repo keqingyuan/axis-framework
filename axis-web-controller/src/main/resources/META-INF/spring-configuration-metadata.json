@@ -1,21 +1,21 @@
 {
   "groups": [
     {
-      "name": "hsweb.access-logger",
+      "name": "axis.access-logger",
       "type": "java.lang.String",
       "sourceType": "java.lang.String"
     }
   ],
   "properties": [
     {
-      "name": "hsweb.access-logger",
+      "name": "axis.access-logger",
       "type": "java.lang.String",
       "sourceType": "java.lang.String"
     }
   ],
   "hints": [
     {
-      "name": "hsweb.access-logger",
+      "name": "axis.access-logger",
       "values": [
         {
           "value": "on",
